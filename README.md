@@ -7,7 +7,7 @@ This project aims at developing an algorithm for the automated transfer of struc
 3) Add the pseudo code section that should be transformed into a CEG (ATTENTION: we implemented a loosely defined grammar in order to avoid limiting the vocabulary too much. However, you should use the logical constructs "IF", "THEN", "ELSE", "AND" etc. to structure your requirement. For a more detailed explanation please refer to the defined grammar within the "Parser" folder.)
 4) After inserting the pseudo code section, just start the main method.
 5) The method creates the parse tree and traverses the tree to create the corresponding CEG. 
-6) The final CEG is given in a .dot file. Just copy the content of this into a "Graphviz" editor (e.g. https://dreampuf.github.io/GraphvizOnline/) and enjoy the CEG. 
+6) The final CEG is given in a .dot file. Just copy the content of this file into a "Graphviz" editor (e.g. https://dreampuf.github.io/GraphvizOnline/) and enjoy the CEG. 
 
 **Ideas for improvement?**
 
