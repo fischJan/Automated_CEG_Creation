@@ -1,0 +1,15 @@
+IF OBJ.TVERSSACHE.SACH# not included in IN.LISTE_SACH#
+THEN IF <TVERTRAG>.<<INKASSOART>> = [A]		
+        AND
+        <TVERTRAG>.<<SALDO>> SMALLER VAR_TOLERANZBETRAG
+        OR
+        <TVERTRAG>.<<STATE>> IS NOT reversal [R] inactive [I]
+        THEN  IF <TPRODAUS> = [Y] 
+	          THEN  OUT_KZ_AUSZAHLUNG = [N]
+		            AND
+	                Deactivate OBJ.TPRODAUS to product / detail 
+		      ELSE  OUT_KZ_AUSZAHLUNG = [J]
+		      END_IF
+	    END_IF
+ELSE OBJ.TVERSSACHE.SACH# = [Y]
+END_IF
