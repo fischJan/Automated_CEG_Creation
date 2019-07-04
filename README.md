@@ -3,7 +3,7 @@ This project aims at developing an algorithm for the automated transfer of struc
 
 **How to test the code?**
 1) Clone the repository to your machine and import it to your favorite IDE (e.g. eclipse). Make sure to add all .jars to the classpath within the build path setting of the Parser folder.
-2) Open the folder "MyVisitor" and open the file "example.txt".
+2) Open the folder "MyVisitor" and open the file "example.txt" (make sure to place the .txt file in your root path).
 3) Add the pseudo code section that should be transformed into a CEG (ATTENTION: we implemented a loosely defined grammar in order to avoid limiting the vocabulary too much. However, you should use the logical constructs "IF", "THEN", "ELSE", "AND" etc. to structure your requirement. For a more detailed explanation please refer to the defined grammar within the "Parser" folder.)
 4) After inserting the pseudo code section, just start the main method.
 5) The method creates the parse tree and traverses the tree to create the corresponding CEG. 
