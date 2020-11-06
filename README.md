@@ -1,5 +1,5 @@
 # Automated_CEG_Creation
-This project aims at developing an algorithm for the automated transfer of structured requirements / pseudo code into Cause Effect Graphs (CEG). The algorithm comprises two functionalities: 1) syntax analysis of the pseudo code by means of ANTLR and 2) semantic analysis of the parse tree by a implemented visitor pattern. 
+This project aims at developing an algorithm for the automated transfer of structured requirements / pseudo code into Cause Effect Graphs (CEG). The algorithm comprises two functionalities: 1) syntax analysis of the pseudo code by means of ANTLR and 2) semantic analysis of the parse tree by a implemented visitor pattern. The exact functionality of our algorithm is described in our paper "Automated Generation of Test Models from Semi-Structured Requirements" published at the RE conference in South Korea. You can access the paper here: https://ieeexplore.ieee.org/abstract/document/8933802
 
 **How to test the code?**
 1) Clone the repository to your machine and import it to your favorite IDE (e.g. eclipse). Make sure to add all .jars to the classpath within the build path setting of the Parser folder.
